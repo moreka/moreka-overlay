@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup unpack
+DESCRIPTION=A beautiful Persian font based on DejaVu font.
+EAPI=8
+HOMEPAGE=https://github.com/rastikerdar/vazirmatn
+INHERIT=font
+IUSE=X
+KEYWORDS=amd64
+LICENSE=OFL
+SLOT=0
+SRC_URI=https://github.com/rastikerdar/vazirmatn/releases/download/v33.003/vazirmatn-v33.003.zip -> vazirmatn-33.003.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=00213e30da1fb35ddb7c72ad9f0a9b55
